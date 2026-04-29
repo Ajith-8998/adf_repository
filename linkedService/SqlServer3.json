@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost",
+			"database": "Sales",
+			"encrypt": "mandatory",
+			"trustServerCertificate": "True",
+			"authenticationType": "SQL",
+			"userName": "adf_user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNTk0NWYxOS1iMDM4LTQ3YTYtOWM1NS02ZWMxODExODI0ODIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

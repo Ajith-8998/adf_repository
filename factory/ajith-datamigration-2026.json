@@ -1,0 +1,15 @@
+{
+	"name": "ajith-datamigration-2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "40189c0b-0f35-4627-8027-2de5be915eac",
+		"tenantId": "5481b480-7598-4eb8-99bb-4e7dca1aa571"
+	}
+}
